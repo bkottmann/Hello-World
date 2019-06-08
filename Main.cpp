@@ -1,15 +1,22 @@
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
 // Main file for Hello World project
 //
-// Version 1.0.1
+// Version 1.1.0
 //
-int main(int argc; char *argv[])
+int main(int argc, char *argv[])
 {
 int i = 0;
+cout << "Welcome to my world!" << endl;
+
 while (i < argc)
     {
-    print(argv[i]);
+    cout << argv[i] << endl;
     i++;
     } // end of while
 
-println("Hello, world, again!");
-// end of main
+cout << "Hello, world, again!" << endl;
+} // end of main
