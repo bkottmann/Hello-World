@@ -4,13 +4,12 @@
 //
 int main(int argc; char *argv[])
 {
-start = false;
-i = 0;
+int i = 0;
 while (i < argc)
     {
-    do something with argv[i];
-    then do something with argc
+    print(argv[i]);
+    i++;
     } // end of while
 
-print("Hello, world, again!");
+println("Hello, world, again!");
 // end of main
